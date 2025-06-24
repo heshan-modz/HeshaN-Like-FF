@@ -112,7 +112,7 @@ async def like_player():
             "likes_before": before_likes,
             "likes_after": after_likes,
           
-            "status": 1 if after_likes > before_likes else 2,
+        
             "credits": "HeshaN MOdZ"
         })
 
