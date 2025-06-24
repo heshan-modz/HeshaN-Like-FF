@@ -111,7 +111,7 @@ async def like_player():
             "likes_added": after_likes - before_likes,
             "likes_before": before_likes,
             "likes_after": after_likes,
-            "server_used": region,
+          
             "status": 1 if after_likes > before_likes else 2,
             "credits": "https://t.me/nopethug"
         })
